@@ -24,7 +24,7 @@ sensor = dht.DHT11
 pin = 4
 
 # Wenn keine Daten gelesen werden können versucht das Programm das bis 15mal nochmal mit 2sekunden abstand
-humidity, temperature = Adafruit_DHT.read_retry(sensor, pin)
+humidity, temperature = dht.read_retry(sensor, pin)
 # humidity = Luftfeuchtigkeit
 # temperature = Temperatur
 
