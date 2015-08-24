@@ -63,7 +63,7 @@ else:
 
 # Call setuptools setup function to install package.
 setup(name              = 'Python_DHT',
-	  version           = '1.1.1',
+	  version           = '1.1.2',
 	  author            = 'Jugend Programmiert',
 	  author_email      = 'mail@jugend-programmiert.com',
 	  description       = 'Mit dieser Libary kannst du den DHT11/12 mit dem Raspberry Pi B+/B2 mit Python3 auslesen',
