@@ -7,8 +7,6 @@ Diese Libary basiert auf https://github.com/adafruit/Adafruit_Python_DHT und htt
 
 Beispiele gibt es im examples Ordner
 
-See example of usage in the examples folder.
-
 
 Lizens: MIT license
 
