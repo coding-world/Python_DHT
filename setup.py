@@ -41,7 +41,7 @@ if platform == platform_detect.RASPBERRY_PI:
 									["source/_Raspberry_Pi_Driver.c", "source/common_dht_read.c", "source/Raspberry_Pi/pi_dht_read.c", "source/Raspberry_Pi/pi_mmio.c"],
 									libraries=['rt'],
 									extra_compile_args=['-std=gnu99']))
-	elif pi_version == 2:
+	elif pi_version == 2 or pi_version == 3:
 		extensions.append(Extension("Python_DHT.Raspberry_Pi_2_Driver",
 									["source/_Raspberry_Pi_2_Driver.c", "source/common_dht_read.c", "source/Raspberry_Pi_2/pi_2_dht_read.c", "source/Raspberry_Pi_2/pi_2_mmio.c"],
 									libraries=['rt'],
