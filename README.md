@@ -1,9 +1,10 @@
-Python DHT Sensor Library
-==================================
+# DEPRECATED LIBRARY - Python DHT Sensor Library
 Mit dieser Libary kannst du einfach Sensor Daten aus dem DHT11 auslesen und weiter verbinden. Diese Libary funktioniert auch mit Python 3.
 Getestet mit: 
 Raspberry Pi B+
 Raspberry Pi 2 / 3
+
+*Für Projekte für den Raspberry Pi 4 empfehlen wir:* https://github.com/coding-world/DHT11_Python
 
 Jetzt ist das auslesen auch ohne sudo Rechte möglich.
 
